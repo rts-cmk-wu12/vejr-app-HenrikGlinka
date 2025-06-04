@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://rts-cmk-wu12.github.io/vejr-app-HenrikGlinka/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
