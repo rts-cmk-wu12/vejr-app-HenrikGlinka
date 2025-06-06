@@ -1,0 +1,37 @@
+.search-bar
+    display: flex
+    position: fixed
+    left: 1rem
+    right: 1rem
+    bottom: 0
+    margin: 1rem auto 2rem auto
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5)
+    border-radius: 10px
+    overflow: hidden
+    max-width: inherit
+
+    &__input
+        flex: 1
+        padding: 0.5rem
+        border: none
+        outline: none
+        font-size: 1.2rem
+        padding: .8rem
+        font-weight: bold
+    
+    &__button
+        border: none
+        outline: none
+        background-color: #40b900
+        padding: 0.8rem
+        color: white
+        display: flex
+        align-items: center
+        justify-content: center
+        cursor: pointer
+
+        &:active
+            filter: brightness(0.98)
+            
+            svg
+                transform: scale(0.95)
