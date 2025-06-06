@@ -1,7 +1,16 @@
+@use "variables" as var
+    
 *
     margin: 0
     padding: 0
     box-sizing: border-box
+    font-family: inherit
+
+
+body
+     background-image: linear-gradient(to bottom, #0159b5, #4ea1e9)
+     font-family: var.$default-font
+     color: var.$default-font-color
 
 
 #root
@@ -9,3 +18,7 @@
     max-width: 800px
     padding: 1rem
     margin: auto
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
