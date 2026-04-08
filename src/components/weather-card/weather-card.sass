@@ -1,0 +1,24 @@
+.weather-card
+    font-size: clamp(2rem, 10vw, 4rem)
+    text-align: center
+
+    $shadow-color: #003f81
+
+    text-shadow: (
+        1px 0 2px $shadow-color,
+        -1px 0 2px $shadow-color,
+        0 1px 2px $shadow-color,
+        0 -1px 2px $shadow-color,
+        1px 1px 2px $shadow-color,
+        -1px -1px 2px $shadow-color,
+        1px -1px 2px $shadow-color,
+        -1px 1px 2px $shadow-color
+    )
+
+    &__description
+        font-size: 2rem
+        margin-top: 1rem
+        font-style: italic
+
+        &::first-letter
+            text-transform: uppercase
