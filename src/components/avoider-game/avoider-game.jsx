@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react"
 import './avoider-game.sass';
-import * as Flags from 'country-flag-icons/react/3x2';
 
 export default function AvoiderGame() {
 
